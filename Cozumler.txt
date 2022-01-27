@@ -1,0 +1,26 @@
+Cozumler (Solutions)
+[16,21,11,8,12,22] -> Merge Sort
+
+1. Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+Cozum:     
+
+      Böl (Divide)     [16,21,11,8,12,22]
+
+    Böl (Divide) [16,21,11]         [8,12,22]
+
+Böl (Divide) [16,21]    [11]        [8,12]    [22]
+
+Böl (Divide) [16] [21] [11]        [8] [12]  [22]
+
+Birleştir (Merge) [16,21] [11]      [8, 12] [22]
+
+Birleştir (Merge) [11,16,21]        [8,12,22]
+
+Birleştir (Merge) [8,11,12,16,21,22]
+
+[8,11,12,16,21,22]
+
+2. Big-O gösterimini yazınız.
+
+Cozum: Her bir adımda işlem sayısı yarıya indiği için logn ve bunu n tane eleman için yapıldığından O(nlogn) olarak ifade edilir. 
